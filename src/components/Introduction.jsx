@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Introduction(){
     return (
@@ -8,7 +9,7 @@ function Introduction(){
             <p>Based in Singapore and studying Business and Computing (BCG) at Nanyang Technological University</p>
             <p>Currently learning web dev technologies such as React, Node.js and MongoDB.</p>
             <h2>Self-initiated Projects</h2>
-            <p><a href=" ">View posts...</a></p>
+            <Link to="/Page2">View posts...</Link>
 
         </div>
         
