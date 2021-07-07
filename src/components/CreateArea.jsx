@@ -44,7 +44,7 @@ function CreateArea(props){
                     onChange= {handleChange}
                     value = {post.content}
                     placeholder="Write content"
-                    rows = "3"
+                    rows = "10"
                 />
                 <button onClick= {handleClick}>Add</button>
             </form>

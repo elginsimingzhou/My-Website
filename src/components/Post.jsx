@@ -2,7 +2,7 @@ import React from "react";
 
 function Post(props){
     return (
-        <div>
+        <div className="post">
             <h1>{props.title}</h1>
             <p>{props.content}</p>
         </div>

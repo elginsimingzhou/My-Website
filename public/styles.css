@@ -40,6 +40,27 @@ li{
     padding-bottom: 2.5rem;
 }
 
+.post {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.post h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.post p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 form {
     position: relative;
     width: 480px;
@@ -49,3 +70,19 @@ form {
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(138, 137, 137);
   }
+
+form input,
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button {
+    width: 80px;
+    height: 40px;
+}
